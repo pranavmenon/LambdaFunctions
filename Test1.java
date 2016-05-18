@@ -23,7 +23,7 @@ public class Test1 {
     MathOperation multiply = (a,b) -> a * b;    //lambda function
     MathOperation divide = (a,b) -> a / b;      //lambda function
     GreetingService polite = message -> System.out.println("Hello " + message);   //lambda function
-    GreetingService rude = message -> System.out.println("Get lost " + message);  //lambda function
+    GreetingService rude = message -> System.out.println("Go away " + message);  //lambda function
     
     System.out.println(operate(10, 5, add));
     System.out.println(operate(10, 5, subtract));
