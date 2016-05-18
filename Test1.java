@@ -61,7 +61,7 @@ public class Test1 {
     Collections.addAll(list, p1, p2, p3, p4, p5);
     System.out.println(list);
     
-    list.                                   //aggregate method
+    list.                                   //aggregate operation
       stream().
       filter(p -> p.age < 25).
       forEach(p -> System.out.println(p));
